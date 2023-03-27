@@ -86,7 +86,7 @@
         app:layout_constraintTop_toBottomOf="@+id/edtUsername"
         app:layout_constraintVertical_bias="0.067" />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btnSubmit"
         android:layout_width="350dp"
         android:layout_height="45dp"
@@ -97,6 +97,7 @@
         android:fallbackLineSpacing="false"
         android:hapticFeedbackEnabled="false"
         android:text="LOGIN"
+        android:textColor="@color/white"
         android:textSize="14sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/imageView2"
